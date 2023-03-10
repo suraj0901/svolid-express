@@ -1,4 +1,4 @@
-import { useState } from "../lib/Store";
+import { useState } from "../static/Store.js";
 const app = () => {
   const [counter, setCounter] = useState(0);
   const increment = () => setCounter((prev) => ++prev);
